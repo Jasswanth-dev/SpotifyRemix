@@ -1,0 +1,37 @@
+.category-album-item {
+  margin-right: 24px;
+  margin-bottom: 24px;
+}
+
+.total-tracks {
+  color: #64748b;
+  margin: 0;
+  padding: 0;
+}
+
+.category-link {
+  text-align: center;
+  width: 170px;
+}
+
+.category-album-name {
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .category-album-item {
+    margin-right: 0;
+  }
+
+  .category-link {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .category-image {
+    margin-right: 10px;
+  }
+}

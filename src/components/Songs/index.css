@@ -1,0 +1,13 @@
+.songs-unorder-list {
+  display: none;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0;
+  list-style: none;
+}
+
+@media (max-width: 576px) {
+  .songs-unorder-list {
+    display: block;
+  }
+}

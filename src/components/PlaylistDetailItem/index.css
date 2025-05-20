@@ -1,0 +1,13 @@
+td {
+  padding: 16px;
+  text-align: left;
+}
+
+tr {
+  cursor: pointer;
+  outline: none;
+}
+
+.playing-track {
+  background-color: #303030;
+}

@@ -1,0 +1,28 @@
+.failure-view {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #040306;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.warning-image {
+  width: 44px;
+  height: 38px;
+}
+
+.tryagain-btn {
+  background-color: #ffffff;
+  color: #171f46;
+  width: 95px;
+  height: 32px;
+  border-radius: 4px;
+  padding: 4px 16px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+}

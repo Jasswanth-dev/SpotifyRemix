@@ -1,0 +1,101 @@
+.login-bg-container {
+  height: 100vh;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://res.cloudinary.com/dq9q02jyk/image/upload/v1744046482/Login_Background_ugmsfy.png');
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  width: 456px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: rgba(24, 24, 24, 0.9);
+  color: white;
+}
+
+.website-logo-container {
+  text-align: center;
+}
+
+.website-logo {
+  width: 148px;
+  height: 60px;
+}
+
+.website-name {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.input-label {
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.user-login-input {
+  padding: 10px;
+  background-color: #d9d9d9;
+  height: 48px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.login-btn {
+  background-color: #1db954;
+  color: white;
+  height: 48px;
+  border-radius: 8px;
+  padding: 12px 32px;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  margin-top: 10px;
+}
+
+.login-error {
+  color: red;
+  margin: 0;
+  font-size: 14px;
+}
+
+@media (max-width: 576px) {
+  .login-container {
+    width: 296px;
+    align-items: center;
+    padding: 36px 48px;
+  }
+
+  .website-logo {
+    height: 42px;
+    width: 100px;
+  }
+
+  .website-name {
+    font-size: 28px;
+  }
+
+  .input-label {
+    font-size: 10px;
+  }
+
+  .input-container {
+    margin-bottom: 8px;
+  }
+
+  .user-login-input {
+    height: 28px;
+    width: 201px;
+  }
+
+  .login-btn {
+    padding: 12px 24px;
+  }
+}

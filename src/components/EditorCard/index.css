@@ -1,0 +1,39 @@
+.card-item {
+  margin: 0 14px 14px 0;
+  width: 168px;
+}
+
+.card-link {
+  text-decoration: none;
+  text-align: center;
+  color: #f8fafc;
+}
+
+.card-image {
+  height: 166px;
+  width: 166px;
+  border-radius: 8px;
+}
+
+.card-name {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0;
+  margin: 8px;
+}
+
+@media screen and (max-width: 576px) {
+  .card-item {
+    width: 85px;
+    margin: 0 8px 8px 0;
+  }
+
+  .card-image {
+    height: 82px;
+    width: 82px;
+  }
+
+  .card-name {
+    font-size: 12px;
+  }
+}

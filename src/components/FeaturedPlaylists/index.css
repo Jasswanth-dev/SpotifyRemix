@@ -1,0 +1,6 @@
+.albums-unorder-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding: 0;
+}

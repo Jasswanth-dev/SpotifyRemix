@@ -1,0 +1,17 @@
+.category-unorderd-list {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-left: 24px;
+}
+
+.category-heading {
+  margin: 32px;
+}
+
+@media (max-width: 576px) {
+  .category-unorderd-list {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+}

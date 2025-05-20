@@ -1,0 +1,47 @@
+.back-btn {
+  height: 24;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  color: #f8fafc;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+  align-self: flex-start;
+}
+
+.notfound-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.notfound-text {
+  font-weight: 700;
+  font-size: 40px;
+  padding: 0;
+  margin-top: 80px;
+}
+
+.notfound-image {
+  width: 100%;
+  max-width: 500px;
+}
+
+.home-btn {
+  background-color: transparent;
+  color: white;
+  border: 0;
+  text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  .notfound-image {
+    max-width: 350px;
+  }
+}
