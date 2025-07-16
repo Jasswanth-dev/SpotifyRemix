@@ -27,7 +27,7 @@ To run the project locally:
 
 ```bash
 # Clone the repository
-git clone <your-repo-link>
+git clone https://github.com/Jasswanth-dev/SpotifyRemix
 
 # Navigate into the project folder
 cd spotify-remix
